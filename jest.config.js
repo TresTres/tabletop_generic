@@ -7,4 +7,5 @@ module.exports = {
   },
   setupFilesAfterEnv: ["jest-extended"],
   preset: "ts-jest",
+  moduleDirectories: ["node_modules", "src"],
 };
