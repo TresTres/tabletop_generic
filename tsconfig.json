@@ -9,10 +9,7 @@
     "declaration": true,
     "strictNullChecks": true,
     "paths": {
-      "*": [
-        "../node_modules/*",
-        "*.ts"
-      ]
+      "*": ["../node_modules/*", "*.ts"]
     }
   },
   "exclude": ["tests", "dist", "IGNORE"],
