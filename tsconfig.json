@@ -6,7 +6,11 @@
     "moduleResolution": "node",
     "outDir": "dist",
     "baseUrl": "src",
-    "declaration": true
+    "declaration": true,
+    "strictNullChecks": true,
+    "paths": {
+      "*": ["../node_modules/*", "*.ts"]
+    }
   },
   "exclude": ["tests", "dist", "IGNORE"],
   "typeAcquisition": {

@@ -19,5 +19,10 @@
     "project": ["./tsconfig.json"]
   },
   "overrides": [],
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/semi": "off",
+    "accessor-pairs": "off",
+    "semi": [1, "always"],
+    "semi-style": [1, "last"]
+  }
 }
